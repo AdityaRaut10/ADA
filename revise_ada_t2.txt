@@ -1,0 +1,26 @@
+Q1.What is Minimum Spanning Tree?
+
+Given a connected and undirected graph, a spanning tree of that graph is a subgraph that is a tree and connects all the vertices together. A single graph can have many different spanning trees. A minimum spanning tree (MST) or minimum weight spanning tree for a weighted, connected and undirected graph is a spanning tree with weight less than or equal to the weight of every other spanning tree. The weight of a spanning tree is the sum of weights given to each edge of the spanning tree.
+
+Q2.Why Bellman-Ford ?
+
+Dijkstra doesn’t work for Graphs with negative weight edges, Bellman-Ford works for such graphs. Bellman-Ford is also simpler than Dijkstra and suites well for distributed systems. But time complexity of Bellman-Ford is O(VE), which is more than Dijkstra.
+
+Q3.Spanning Tree?
+
+A spanning tree is a subset of Graph G, which has all the vertices covered with minimum possible number of edges. Hence, a spanning tree does not have cycles and it cannot be disconnected..
+
+By this definition, we can draw a conclusion that every connected and undirected Graph G has at least one spanning tree
+We found three spanning trees off one complete graph. A complete undirected graph can have maximum n^(n-2) number of spanning trees, where n is the number of nodes.
+
+Q4. Graph?
+A Graph is a non-linear data structure consisting of nodes and edges. The nodes are sometimes also referred to as vertices and the edges are lines or arcs that connect any two nodes in the graph. More formally a Graph can be defined as,
+A Graph consists of a finite set of vertices(or nodes) and set of Edges which connect a pair of nodes.
+
+Q Forest?
+
+Forest is a collection of disjoint trees. In other words, we can also say that forest is a collection of an acyclic graph which is not connected. Here is a pictorial representation of a forest. ... A single tree and empty graph is also an example of forest data structure.
+
+Q What is backtracking?
+
+Backtracking can be defined as a general algorithmic technique that considers searching every possible combination in order to solve an optimization problem

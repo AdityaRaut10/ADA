@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1533631228 source:c:\users\aditya\desktop\ada lab\fileada\main.c
+	<stdio.h>
+	<stdlib.h>
+
