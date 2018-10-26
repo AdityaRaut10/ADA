@@ -1,7 +1,0 @@
-# depslib dependency file v1.0
-1534182367 source:c:\users\aditya\desktop\al\3.a\main.c
-	<stdio.h>
-	<stdlib.h>
-	<string.h>
-	<stdbool.h>
-
