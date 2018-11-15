@@ -46,8 +46,6 @@ void naive(string a, string b)
     for(ll i=0; i<= (n-m); i++)
     {
         poss = true;
-        st = i;
-        en = i+m-1;
         for(ll j=0; j<m; j++)
         {
             if(b[i+j]!=a[j]){
